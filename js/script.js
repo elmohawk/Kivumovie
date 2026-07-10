@@ -96,7 +96,9 @@ function movieCard(movie){
 
 return `
 
-<div class="movie-card">
+<div
+class="movie-card"
+onclick="location.href='movie.html?id=${movie.id}'">
 
 <img
 src="${movie.poster}"
@@ -106,12 +108,22 @@ loading="lazy">
 
 <div class="movie-buttons">
 
-<button>
+<button title="Play">
+
 <i class="fas fa-play"></i>
+
 </button>
 
-<button>
+<button title="My List">
+
+<i class="fas fa-plus"></i>
+
+</button>
+
+<button title="Like">
+
 <i class="fas fa-heart"></i>
+
 </button>
 
 </div>
@@ -120,15 +132,27 @@ loading="lazy">
 
 <h3>${movie.title}</h3>
 
-<p>
+<div class="movie-meta">
+
+<span>
 
 ⭐ ${movie.rating}
 
-•
+</span>
+
+<span>
 
 ${movie.year}
 
-</p>
+</span>
+
+</div>
+
+<div class="quality">
+
+4K
+
+</div>
 
 </div>
 
