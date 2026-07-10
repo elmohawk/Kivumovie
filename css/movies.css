@@ -217,7 +217,81 @@
 @keyframes skeleton{
 
     0%{
+/* ===========================
+SECTION HEADER
+=========================== */
 
+.section-header{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+margin-bottom:20px;
+
+}
+
+.slider-buttons{
+
+display:flex;
+
+gap:12px;
+
+}
+
+.slider-btn{
+
+width:44px;
+
+height:44px;
+
+border:none;
+
+border-radius:50%;
+
+background:rgba(255,255,255,.08);
+
+color:white;
+
+cursor:pointer;
+
+backdrop-filter:blur(12px);
+
+transition:.3s;
+
+}
+
+.slider-btn:hover{
+
+background:#E50914;
+
+transform:scale(1.08);
+
+}
+
+.movie-row{
+
+display:flex;
+
+gap:22px;
+
+overflow-x:auto;
+
+scrollbar-width:none;
+
+scroll-behavior:smooth;
+
+padding-bottom:15px;
+
+}
+
+.movie-row::-webkit-scrollbar{
+
+display:none;
+
+}
         background-position:100%;
 
     }
