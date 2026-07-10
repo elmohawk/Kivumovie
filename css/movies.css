@@ -303,3 +303,84 @@ display:none;
     }
 
 }
+.movie-meta{
+
+display:flex;
+
+gap:15px;
+
+margin:10px 0;
+
+color:#d7d7d7;
+
+font-size:14px;
+
+}
+
+.quality{
+
+display:inline-block;
+
+padding:5px 10px;
+
+border-radius:20px;
+
+background:#E50914;
+
+font-size:12px;
+
+font-weight:600;
+
+}
+
+.movie-buttons{
+
+display:flex;
+
+gap:10px;
+
+margin-bottom:15px;
+
+}
+
+.movie-buttons button{
+
+width:40px;
+
+height:40px;
+
+border-radius:50%;
+
+border:none;
+
+cursor:pointer;
+
+background:white;
+
+transition:.3s;
+
+}
+
+.movie-buttons button:hover{
+
+background:#E50914;
+
+color:white;
+
+transform:scale(1.1);
+
+}
+
+.movie-card{
+
+box-shadow:0 15px 45px rgba(0,0,0,.4);
+
+}
+
+.movie-card:hover{
+
+box-shadow:
+
+0 25px 60px rgba(0,0,0,.65);
+
+}
