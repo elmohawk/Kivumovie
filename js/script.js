@@ -1,3 +1,4 @@
+import "./slider.js";
 import "./hero.js";
 import { supabase } from "./supabase.js";
 
