@@ -1,0 +1,8 @@
+export const SUPABASE_URL = "https://exjgejujfxejjlbfizgz.supabase.co"";
+
+export const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV4amdlanVqZnhlampsYmZpemd6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg1MTQzMTQsImV4cCI6MjA5NDA5MDMxNH0.CWUYLk4qJfriIYXWScB7wcHHVTCuz0SGDhWUV3tMR1Y";
+
+export const TMDB_API_KEY = "8b8937bf3e114fa3502358a4f090c0df";
+
+export const IMAGE_URL =
+"https://image.tmdb.org/t/p/original";
