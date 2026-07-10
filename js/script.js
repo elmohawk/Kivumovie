@@ -1,3 +1,4 @@
+import "./hero.js";
 import { supabase } from "./supabase.js";
 
 const trending =
